@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/liner_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/hushenListItemNow"
+        style="@style/hushenHeaderItemTv"
+        android:text="最新"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <TextView
+        android:id="@+id/hushenListItemDifferRange"
+        style="@style/hushenHeaderItemTv"
+        android:text="涨幅↓"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <TextView
+        android:id="@+id/hushenListItemDifference"
+        style="@style/hushenHeaderItemTv"
+        android:text="涨跌"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    
+    <TextView
+        android:id="@+id/hushenListItemTotalshare"
+        style="@style/hushenHeaderItemTv"
+        android:text="总手"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <TextView
+        android:id="@+id/hushenListItemAmount"
+        style="@style/hushenHeaderItemTv"
+        android:text="总额"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <!--<TextView-->
+    <!--android:id="@+id/hushenListItemPreClose"-->
+    <!--style="@style/hushenHeaderItemTv"-->
+    <!--android:text="昨收" />-->
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <!--<TextView-->
+    <!--android:id="@+id/hushenListItemVolume"-->
+    <!--style="@style/hushenHeaderItemTv"-->
+    <!--android:text="成交量" />-->
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <!---->
+    
+    <!--<TextView-->
+    <!--android:id="@+id/hushenListItemHigh"-->
+    <!--style="@style/hushenHeaderItemTv"-->
+    <!--android:text="最高" />-->
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <!--<TextView-->
+    <!--android:id="@+id/hushenListItemLow"-->
+    <!--style="@style/hushenHeaderItemTv"-->
+    <!--android:text="最低" />-->
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    
+    <TextView
+        android:id="@+id/hushenHeaderItemCurVolume"
+        style="@style/hushenHeaderItemTv"
+        android:text="现手"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <TextView
+        android:id="@+id/hushenHeaderItemHuanshou"
+        style="@style/hushenHeaderItemTv"
+        android:text="换手"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <TextView
+        android:id="@+id/hushenHeaderItemAmplitude"
+        style="@style/hushenHeaderItemTv"
+        android:text="振幅"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    
+    <TextView
+        android:id="@+id/hushenHeaderItemWeibi"
+        style="@style/hushenHeaderItemTv"
+        android:text="委比"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <TextView
+        android:id="@+id/hushenHeaderItemVolumeRatio"
+        style="@style/hushenHeaderItemTv"
+        android:text="量比"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+    
+    <TextView
+        android:id="@+id/hushenHeaderItemPE"
+        style="@style/hushenHeaderItemTv"
+        android:text="市盈"/>
+    
+    <!--<com.chinabigdata.market.widget.DashedLineView style="@style/hushenHeaderItemLine" />-->
+
+</LinearLayout>
