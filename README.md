@@ -4,4 +4,4 @@
 该项目的展示如下
 
 
-  ![https://github.com/xkun1/RecyclerListForm/blob/master/app/src/main/java/image/imge01.png]
+  ![https://github.com/xkun1/RecyclerListForm/app/src/main/java/image/imge01.gif]
